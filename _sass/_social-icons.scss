@@ -1,0 +1,47 @@
+.social-icons-left {
+  float: left;
+}
+.social-icons-right {
+  float: right;
+}
+
+.social-icons-center {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  font-size: 1.25rem;
+  padding: 0.5em 0 0 0;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.social-icons a.fa {
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0 0.4em;
+  margin: 0 0.25em;
+  font-size: 1.25rem;
+}
+
+.social-icons a.fa:hover {
+  opacity: 1;
+}
+
+.social-icons iframe[title=Flattr] {
+  position: relative;
+  top: 0.1em;
+}
+
+.share-page {
+  margin-top: $space-3;
+}
+
+.share-links a {
+  text-decoration: none;
+}
+
+.share-links a:hover {
+  opacity: 1
+}

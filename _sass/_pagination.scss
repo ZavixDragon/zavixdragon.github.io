@@ -1,0 +1,33 @@
+.pagination {
+  font-size: 1.15rem;
+  font-weight: $bold-font-weight;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: 4em;
+}
+
+.pagination a, .pagination .disabled {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+	border: 3px solid #fff;
+  padding: 1em 1.5em;
+  color: #fff;
+  background: #333333;
+}
+
+.pagination .disabled, .pagination .pagination-meta {
+  opacity: 0.3;
+}
+
+.pagination .pagination-meta {
+  overflow: hidden;
+}
+
+.pagination a:hover, 
+.pagination a:focus,
+.pagination a:active, {
+	color: #333333;
+	background: #fff;
+}
